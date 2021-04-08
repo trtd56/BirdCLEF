@@ -1,0 +1,4 @@
+- [ ] スペクトログラムの学習 10~20 epoch
+  - Code: https://www.kaggle.com/takamichitoda/birdclef-starter-train-precomputed-spectrogram)
+- [ ] ラベルの頻度別の学習 baseline
+- [ ] ラベルの頻度別の学習 loss masking
