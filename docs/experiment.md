@@ -18,5 +18,5 @@
 #### 5 CV
 |exp id|train|infer|CV mAP|train soundscape|LB|detail|memo|
 |--|--|--|--|--|--|--|--|
-|exp0003||[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59538507)||0.5701|0.50|baseline|||
-|exp0004|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0004.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59684179)||0.5949|0.53|+ガウシアンノイズ|||
+|exp0003||[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59538507)|0.9101|0.5701|0.50|baseline|||
+|exp0004|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0004.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59684179)|0.9126|0.5949|0.53|+ガウシアンノイズ|||
