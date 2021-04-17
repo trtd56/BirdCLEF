@@ -21,4 +21,4 @@
 |exp0003||[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59538507)|0.9101|0.5701|0.50|baseline|||
 |exp0004|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0004.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59684179)|0.9126|0.5949|0.53|+ガウシアンノイズ|||
 |exp0005|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0005.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59884081)|0.9080|0.6017|0.55|+pink, brown, ガウシアンSNR||
-|exp0006|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0006.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59988707)|0.9086|0.6410||||
+|exp0006|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0006.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59988707)|0.9086|0.6410||+airplane,rain||
