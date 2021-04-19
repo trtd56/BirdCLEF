@@ -45,15 +45,16 @@
 
 ## 30HL_50%が出来次第、subしてみる
 + threshold=0.5
-+ airplen & rain don't contain
++ airplane & rain don't contain
++ bathsize=16
 
-||data|backbone|resolution|batchsize|post-processing|train_soundscape(F1)|LB|memo|
+||data|backbone|resolution|post-processing|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex5|10HL_44%|ENetB0|450x458|16||
-|ex5|10HL_44%|ENetB0|450x458|16|v|
-|ex9|10HL_44%|ENetV2s|450x458|16||
-|ex9|10HL_44%|ENetV2s|450x458|16|v|
-|ex17|10HL_44%|RexNet-150|250x254|16|
-|ex17|10HL_44%|RexNet-150|250x254|16|v
+|ex30|30HL_50%|ENetB0|450x458||
+|ex31|30HL_50%|ENetB0|450x458|v|
+|ex32|30HL_50%|ENetV2s|450x458||
+|ex33|30HL_50%|ENetV2s|450x458|v|
+|ex34|30HL_50%|RexNet-150|250x254|
+|ex35|30HL_50%|RexNet-150|250x254|v
 
 Augmenation(mixup, SpecAug++)は未検証
