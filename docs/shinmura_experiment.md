@@ -6,7 +6,6 @@
 + adam(lr=0.01) + cosineanealing(T=10)
 + fold0
 + noise：ピンク、ブラウン、ホワイト、ランダムSNR 
-+ threshold=0.5
 + loss:BCE
 
 ||data|backbone|resolution|batchsize|post-processing|local_F1|train_soundscape(F1)|memo|
@@ -45,6 +44,9 @@
 |ex26|10HL_44%|RexNet-100|350x334|16||0.3968|
 
 ## 30HL_50%が出来次第、subしてみる
++ threshold=0.5
++ airplen & rain don't contain
+
 ||data|backbone|resolution|batchsize|post-processing|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex5|10HL_44%|ENetB0|450x458|16||
