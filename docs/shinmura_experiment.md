@@ -44,7 +44,7 @@
 |ex25|10HL_44%|RexNet-100|250x254|16||0.4996|
 |ex26|10HL_44%|RexNet-100|350x334|16||0.3968|
 
-##30HL_50%が出来次第、subしてみる
+## 30HL_50%が出来次第、subしてみる
 ||data|backbone|resolution|batchsize|post-processing|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex5|10HL_44%|ENetB0|450x458|16||
