@@ -54,15 +54,10 @@
 ## 10HL_44%でsubしてみる
 + threshold=0.5
 + airplane & rain don't contain
-+ bathsize=16
 
-||data|backbone|resolution|post-processing|local_F1|train_soundscape(F1)|LB|memo|
+||data|backbone|resolution|batch_size|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex5_a|10HL_44%|ENetB0|450x458||0.5465
-|ex5_b|10HL_44%|ENetB0|450x458|v|0.5465
-|ex9_a|10HL_44%|ENetV2s|450x458||0.5978
-|ex9_b|10HL_44%|ENetV2s|450x458|v|0.5978
-|ex17_a|10HL_44%|RexNet-150|250x254||0.6155
-|ex17_b|10HL_44%|RexNet-150|250x254|v|0.6155
+|ex17|10HL_44%|RexNet-150|250x254|16|0.6155||
+|ex35|10HL_45%|RexNet-150|250x254|64|0.||
 
 Augmenation(mixup, SpecAug++)は未検証
