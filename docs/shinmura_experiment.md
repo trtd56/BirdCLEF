@@ -57,7 +57,7 @@
 
 ||data|backbone|resolution|batch_size|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex17|10HL_44%|RexNet-150|250x254|16|0.6155||
-|ex35|10HL_45%|RexNet-150|250x254|64|0.||
+|ex17|10HL_44%|RexNet-150|250x254|16|0.6155|0.5759|
+|ex35|10HL_45%|RexNet-150|250x254|64|0.5952|0.5339|
 
 Augmenation(mixup, SpecAug++)は未検証
