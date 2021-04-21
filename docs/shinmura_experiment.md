@@ -51,18 +51,18 @@
 |ex31|25|8|200|RexNet-150|250x254|16|0.6255|
 |ex32|25|28|697|RexNet-150|250x254|16|0.8253|
 
-## 30HL_50%が出来次第、subしてみる
+## 10HL_44%でsubしてみる
 + threshold=0.5
 + airplane & rain don't contain
 + bathsize=16
 
 ||data|backbone|resolution|post-processing|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex|30HL_50%|ENetB0|450x458||
-|ex|30HL_50%|ENetB0|450x458|v|
-|ex|30HL_50%|ENetV2s|450x458||
-|ex|30HL_50%|ENetV2s|450x458|v|
-|ex|30HL_50%|RexNet-150|250x254|
-|ex|30HL_50%|RexNet-150|250x254|v
+|ex5_a|10HL_44%|ENetB0|450x458||0.5465
+|ex5_b|10HL_44%|ENetB0|450x458|v|0.5465
+|ex9_a|10HL_44%|ENetV2s|450x458||0.5978
+|ex9_b|10HL_44%|ENetV2s|450x458|v|0.5978
+|ex17_a|10HL_44%|RexNet-150|250x254||0.6155
+|ex17_b|10HL_44%|RexNet-150|250x254|v|0.6155
 
 Augmenation(mixup, SpecAug++)は未検証
