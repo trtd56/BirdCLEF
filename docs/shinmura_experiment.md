@@ -45,6 +45,7 @@
 
 ## データ個数の比較
 + validation dataは同じ
++ fold0
 
 ||クラス数|train data個数/class|train data総数|backbone|resolution|batchsize|local_F1|
 |---|---|---|---|---|---|---|---|
@@ -54,10 +55,14 @@
 ## 10HL_44%でsubしてみる
 + threshold=0.5
 + airplane & rain don't contain
++ fold0
++ RexNet-150
++ resolution 250x254
 
-||data|backbone|resolution|batch_size|local_F1|train_soundscape(F1)|LB|memo|
+||data|クラス数|train data総数|batch_size|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex17|10HL_44%|RexNet-150|250x254|16|0.6155|0.5759|
-|ex35|10HL_45%|RexNet-150|250x254|64|0.5952|0.5339|
+|ex17|10HL_44%|105|878|16|0.6155|0.5759|0.47
+|ex35|10HL_45%|108|1563|64|0.5952|0.5339|0.52
+|ex35_nocall|10HL_45%|108|1563|64|0.5952|0.6091|0.55
 
 Augmenation(mixup, SpecAug++)は未検証
