@@ -62,7 +62,24 @@
 ||data|クラス数|train data総数|batch_size|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex17|10HL_44%|105|878|16|0.6155|0.5759|0.47
-|ex35|10HL_45%|108|1563|64|0.5952|0.5339|0.52
-|ex35_nocall|10HL_45%|108|1563|64|0.5952|0.6091|0.55
+|ex35|30HL_45%|108|1563|64|0.5952|0.5339|0.52
+|ex35_nocall|30HL_45%|108|1563|64|0.5952|0.6091|0.55
+
+## 基礎実験
++ threshold=0.5
++ fold0
++ RexNet-150
++ resolution 250x254
++ batchsize=64
++ data 30HL_45%
+
+||local_F1|train_soundscape(F1)|LB|memo|
+|---|---|---|---|---|
+|ex35|0.5952|0.5759|0.52|baseline
+|ex36|0.5414|0.5847|0.52+ label smoothing(alpha=0.1)=LS
+|ex37|0.|0.|0.|+ LS + mixup(alpha=0.1)
+|ex38|0.|0.|0.|+ LS + 確率的mixup(alpha=0.1)
+|ex39|0.|0.|0.|+ LS + SpecAug++
+|ex40|0.|0.|0.|+ LS + 確率的SpecAug++
 
 Augmenation(mixup, SpecAug++)は未検証
