@@ -77,8 +77,8 @@
 |---|---|---|---|---|
 |ex35|0.5952|0.5759|0.52|baseline
 |ex36|0.5414|0.5847|0.52+ label smoothing(alpha=0.1)=LS
-|ex37|0.|0.|0.|+ LS + mixup(alpha=0.1)
-|ex38|0.|0.|0.|+ LS + 確率的mixup(alpha=0.1)
+|ex37|0.6232|0.|0.|+ LS + mixup(alpha=0.1)
+|ex38|0.6248|0.|0.|+ LS + 確率的mixup(alpha=0.1)
 |ex39|0.|0.|0.|+ LS + SpecAug++
 |ex40|0.|0.|0.|+ LS + 確率的SpecAug++
 
