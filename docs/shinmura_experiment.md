@@ -79,7 +79,7 @@
 |ex36|0.5414|0.5847|0.52|+ label smoothing(alpha=0.1)=LS
 |ex36_only_TS|0.5414|0.6190|0.53|+ LS + only_train_soundscape_species
 |ex37|0.6232|0.5727|0.|+ LS + mixup(alpha=0.1)
-|ex37_only_TS|0.6232|0.6432|0.|+ LS + mixup(alpha=0.1) + only_TS
+|ex37_only_TS|0.6232|0.6432|0.54|+ LS + mixup(alpha=0.1) + only_TS
 |ex38|0.6248|0.5175|0.|+ LS + 確率的mixup(alpha=0.1)
 |ex38_only_TS|0.6248|0.6377|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
 |ex39|0.|0.|0.|+ LS + SpecAug++
