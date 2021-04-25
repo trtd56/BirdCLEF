@@ -85,4 +85,17 @@
 |ex39|0.|0.|0.|+ LS + SpecAug++
 |ex40|0.|0.|0.|+ LS + 確率的SpecAug++
 
+## データ数実験
++ threshold=0.5
++ fold0
++ RexNet-150
++ resolution 250x254
++ batchsize=64
+
+||クラス数|data総数|epoch|local_F1|train_soundscape(F1)|LB|memo|
+|---|---|---|---|---|---|---|---|
+|ex36|111|1563|30|0.5414|0.5847|0.52|baseline + LS
+|f_ex36|111|7564|30|0.6330|0.5192|0.45|baseline + LS
+|f_ex40|111|7564(teacher HL model)|10|0.|0.|0.|baseline + LS
+
 Augmenation(mixup, SpecAug++)は未検証
