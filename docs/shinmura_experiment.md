@@ -96,6 +96,6 @@
 |---|---|---|---|---|---|---|---|
 |ex36|111|1563|30|0.5414|0.5847|0.52|baseline + LS
 |f_ex36|111|7564|30|0.6330|0.5192|0.45|baseline + LS
-|f_ex40|111|7564(teacher HL model)|10|0.|0.|0.|baseline + LS
+|f_ex40|111|7564(teacher HL model ex36)|10|0.|0.|0.|baseline + LS
 
 Augmenation(mixup, SpecAug++)は未検証
