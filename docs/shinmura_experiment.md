@@ -77,15 +77,15 @@
 |---|---|---|---|---|
 |ex35|0.5952|0.5759|0.52|baseline
 |ex36|0.5414|0.5847|0.52|+ label smoothing(alpha=0.1)=LS
-|ex36_only_TS|0.5414|0.6190|0.53|+ LS + only_train_soundscape_species
+|ex36_only_TS|-|0.6190|0.53|+ LS + only_train_soundscape_species
 |ex37|0.6232|0.5727|0.|+ LS + mixup(alpha=0.1)
-|ex37_only_TS|0.6232|0.6432|0.54|+ LS + mixup(alpha=0.1) + only_TS
+|ex37_only_TS|-|0.6432|0.54|+ LS + mixup(alpha=0.1) + only_TS
 |ex38|0.6248|0.5175|0.|+ LS + 確率的mixup(alpha=0.1)
-|ex38_only_TS|0.6248|0.6377|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
+|ex38_only_TS|-|0.6377|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
 |ex39|0.|0.|0.|+ LS + SpecAug++
 |ex40|0.|0.|0.|+ LS + 確率的SpecAug++
 
-## データ数実験
+## HL vs all_data
 + threshold=0.5
 + fold0
 + RexNet-150
@@ -94,8 +94,21 @@
 
 ||クラス数|data総数|epoch|local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|
-|ex36|111|1563|30|0.5414|0.5847|0.52|baseline + LS
+|ex36|111|1563(HL)|30|0.5414|0.5847|0.52|baseline + LS
 |f_ex36|111|7564|30|0.6330|0.5192|0.45|baseline + LS
-|f_ex40|111|7564(teacher HL model ex36)|10|0.|0.|0.|baseline + LS
+|ex41|111|7564|10|0.5699|0.5778|0.53|baseline + LS
+|ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
+
+## HL vs all_data
++ threshold=0.5
++ fold0
++ RexNet-150
++ resolution 250x254
++ batchsize=64
+
+||クラス数|data総数|epoch|local_F1|train_soundscape(F1)|LB|memo|
+|---|---|---|---|---|---|---|---|
+|ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
+|ex40_optimTH|-|-|-|-|0.6428|0.56|baseline + LS
 
 Augmenation(mixup, SpecAug++)は未検証
