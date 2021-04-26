@@ -101,7 +101,7 @@
 
 ## HL vs all_data
 + bird_call と nocall　は音源毎に[二極化](https://www.kaggle.com/shinmurashinmura/train-soundscape-nocall-rate)している。
-+ bird_callが多ければthresholdを小さく、[nocallが多ければtheshold](https://www.kaggle.com/shinmurashinmura/bird2-ex40-adaptiveth-infer-rex150#prediction)を大きくする。
++ bird_callが多ければthresholdを小さく、nocallが多ければthesholdを大きくする。
 + fold0
 + RexNet-150
 + resolution 250x254
@@ -110,6 +110,6 @@
 ||クラス数|data総数|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|
 |ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
-|ex40_optimTH|-|-|-|-|0.6428|0.56|baseline + LS
+|[ex40_optimTH](https://www.kaggle.com/shinmurashinmura/bird2-ex40-adaptiveth-infer-rex150#prediction)|-|-|-|-|0.6428|0.56|baseline + LS
 
 Augmenation(mixup, SpecAug++)は未検証
