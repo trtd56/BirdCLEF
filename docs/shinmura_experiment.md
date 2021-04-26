@@ -99,9 +99,9 @@
 |ex41|111|7564|10|0.5699|0.5778|0.53|baseline + LS
 |ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
 
-## HL vs all_data
+## 動的なthreshold
 + bird_call と nocall　は音源毎に[二極化](https://www.kaggle.com/shinmurashinmura/train-soundscape-nocall-rate)している。
-+ bird_callが多ければthresholdを小さく、nocallが多ければthesholdを大きくする。
++ 音源毎にbird_callが多ければthresholdを小さく、nocallが多ければthesholdを大きくする。
 + fold0
 + RexNet-150
 + resolution 250x254
