@@ -82,7 +82,7 @@
 |ex37_only_TS|-|~~0.6432~~|0.54|+ LS + mixup(alpha=0.1) + only_TS
 |ex38|0.6248|0.5175|0.|+ LS + 確率的mixup(alpha=0.1)
 |ex38_only_TS|-|~~0.6377~~|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
-|ex46|0.5678|0.5953|0.|+ LS + SpecAug++
+|ex46|0.5678|0.5953|0.53|+ LS + SpecAug++
 |ex46_optim|-|0.6320|0.|+ LS + SpecAug++ + dynamic_thresh
 
 + 0.2noise(crickets, click_fire, rain, airplane, wind, sea_waves)
