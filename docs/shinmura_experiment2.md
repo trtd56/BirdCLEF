@@ -29,7 +29,7 @@
 |ex38|0.6248|0.5175|0.|+ LS + 確率的mixup(alpha=0.1)
 |ex38_only_TS|-|~~0.6377~~|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
 |[ex46](https://www.kaggle.com/shinmurashinmura/bird2-ex46-train-rex150)|0.5678|0.5953|0.53|+ LS + SpecAug++
-|ex46_optim|-|0.6320|0.|+ LS + SpecAug++ + dynamic_thresh
+|ex46_optimTH|-|0.6320|0.|+ LS + SpecAug++
 
 + 0.2noise(crickets, click_fire, rain, airplane, wind, sea_waves)
 
@@ -37,13 +37,16 @@
 |---|---|---|---|---|
 |ex47|0.5770|0.5092|0.45|BS + LS
 |ex48|0.2232|0.5460|0.|BS + LS + SpecAug++
+|[ex52](https://www.kaggle.com/shinmurashinmura/bird2-ex52-train-rex150)|0.5942|0.6158|0.54|BS + LS + SpecAug++(rain, fire)
 
 + 2つの鳥を混ぜる
 
 ||local_F1|train_soundscape(F1)|LB|memo|
 |---|---|---|---|---|
 |ex49|0.5949|0.4907|0.|BS + LS + SpecAug++(mistake)
-|ex50|0.|0.|0.|BS + LS + SpecAug++(rand=0.6-0.8)
+|ex50|0.5598|0.5869|0.|BS + LS + SpecAug++(rand=0.6-0.8)
+|ex50_optimTH|-|0.6280|0.|BS + LS + SpecAug++(rand=0.6-0.8)
+|ex51|0.3754|0.6363|0.|BS + LS + SpecAug++ + max_loss
 
 ## HL vs all_data
 + threshold=0.5
