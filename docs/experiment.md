@@ -22,3 +22,9 @@
 |exp0004|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0004.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59684179)|0.9126|0.5949|0.53|+ガウシアンノイズ|||
 |exp0005|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0005.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59884081)|0.9080|0.6017|0.55|+pink, brown, ガウシアンSNR||
 |exp0006|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0006.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=59988707)|0.9086|0.6410|0.57|+airplane,rain||
+
+### 500-400
+|exp id|train|infer|CV mAP|train soundscape|LB|detail|memo|
+|--|--|--|--|--|--|--|--|
+|exp0024|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0024.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=61287530)|0.9636|0.6376|0.54|baseline|しきい値0.9だった|
+|exp0024|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0024.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model-2-type?scriptVersionId=61288115)|0.9636|0.6407|0.58|500-400と組み合わせ||
