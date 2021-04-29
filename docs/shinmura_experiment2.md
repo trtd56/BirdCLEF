@@ -38,6 +38,7 @@
 |ex47|0.5770|0.5092|0.45|BS + LS
 |ex48|0.2232|0.5460|0.|BS + LS + SpecAug++
 |[ex52](https://www.kaggle.com/shinmurashinmura/bird2-ex52-train-rex150)|0.5942|0.6158|0.54|BS + LS + SpecAug++(rain, fire)
+|ex53|0.|0.|0.|BS + LS + SpecAug++(rain, fire, airplane)
 
 + 2つの鳥を混ぜる
 
