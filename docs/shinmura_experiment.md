@@ -43,18 +43,11 @@
 |ex25|10HL_44%|RexNet-100|250x254|16||0.4996|
 |ex26|10HL_44%|RexNet-100|350x334|16||0.3968|
 
-## 30HL_50%が出来次第、subしてみる
-+ threshold=0.5
-+ airplane & rain don't contain
-+ bathsize=16
+## データ個数の比較
++ validation dataは同じ
++ fold0
 
-||data|backbone|resolution|post-processing|local_F1|train_soundscape(F1)|LB|memo|
-|---|---|---|---|---|---|---|---|---|
-|ex30|30HL_50%|ENetB0|450x458||
-|ex31|30HL_50%|ENetB0|450x458|v|
-|ex32|30HL_50%|ENetV2s|450x458||
-|ex33|30HL_50%|ENetV2s|450x458|v|
-|ex34|30HL_50%|RexNet-150|250x254|
-|ex35|30HL_50%|RexNet-150|250x254|v
-
-Augmenation(mixup, SpecAug++)は未検証
+||クラス数|train data個数/class|train data総数|backbone|resolution|batchsize|local_F1|
+|---|---|---|---|---|---|---|---|
+|ex31|25|8|200|RexNet-150|250x254|16|0.6255|
+|ex32|25|28|697|RexNet-150|250x254|16|0.8253|
