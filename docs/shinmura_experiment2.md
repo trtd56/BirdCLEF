@@ -56,12 +56,14 @@
 + resolution 250x254
 + batchsize=64
 
-||クラス数|data総数|epoch|local_F1|train_soundscape(F1)|LB|memo|
-|---|---|---|---|---|---|---|---|
-|ex36|111|1563(HL)|30|0.5414|0.5847|0.52|baseline + LS
-|f_ex36|111|7564|30|0.6330|0.5192|0.45|baseline + LS
-|ex41|111|7564|10|0.5699|0.5778|0.53|baseline + LS
-|ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
+||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
+|---|---|---|---|---|---|---|---|---|
+|ex36|111|1563(HL)||30|0.5414|0.5847|0.52|baseline + LS
+|f_ex36|111|7564||30|0.6330|0.5192|0.45|baseline + LS
+|ex41|111|7564||10|0.5699|0.5778|0.53|baseline + LS
+|ex40|111|7564|ex36|10|0.5364|0.6306|0.54|baseline + LS
+|ex54|111|7564|ex52|10|0.5261|0.6374|0.|BS + LS + SpecAug++(rain, fire)
+|ex55|111|7564|ex52|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise
 
 ## 動的なthreshold
 + bird_call と nocall　は音源毎に[二極化](https://www.kaggle.com/shinmurashinmura/train-soundscape-nocall-rate)している。
