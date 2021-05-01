@@ -63,9 +63,11 @@
 |ex41|-|-||10|0.5699|0.5778|0.53|-
 |ex40|-|-|ex36|10|0.5364|0.6306|0.54|-
 |ex54|-|-|ex52|10|0.5261|0.6374|0.56|BS + LS + SpecAug++(rain, fire)
-|ex56|-|-|-|30|0.|0.|0.|-
-|ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise
-|ex57|-|-|-|30|0.|0.|0.|-
+|ex58|-|-|ex54|10|0.5485|0.6286|0.|-
+|ex56|-|-|ex52|30|0.5960|0.6335|0.|-
+|ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
+|ex59|-|-|-|10|0.3616|0.6120|0.|BS + LS + SpecAug++(rain, fire), framewise(beta1)
+|ex57|-|-|-|30|0.5655|0.6394|0.|-
 
 ## 動的なthreshold
 + bird_call と nocall　は音源毎に[二極化](https://www.kaggle.com/shinmurashinmura/train-soundscape-nocall-rate)している。
