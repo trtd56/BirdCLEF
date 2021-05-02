@@ -29,7 +29,7 @@
 |ex38|0.6248|0.5175|0.|+ LS + 確率的mixup(alpha=0.1)
 |ex38_only_TS|-|~~0.6377~~|0.|+ LS + 確率的mixup(alpha=0.1) + only_TS
 |[ex46](https://www.kaggle.com/shinmurashinmura/bird2-ex46-train-rex150)|0.5678|0.5953|0.53|+ LS + SpecAug++
-|ex46_optimTH|-|0.6320|0.|+ LS + SpecAug++
+|ex46_dynamicTH|-|0.6320|0.|+ LS + SpecAug++
 
 + 0.2noise(crickets, click_fire, rain, airplane, wind, sea_waves)
 
@@ -46,7 +46,7 @@
 |---|---|---|---|---|
 |ex49|0.5949|0.4907|0.|BS + LS + SpecAug++(mistake)
 |ex50|0.5598|0.5869|0.|BS + LS + SpecAug++(rand=0.6-0.8)
-|ex50_optimTH|-|0.6280|0.|BS + LS + SpecAug++(rand=0.6-0.8)
+|ex50_dynamicTH|-|0.6280|0.|BS + LS + SpecAug++(rand=0.6-0.8)
 |ex51|0.3754|0.6363|0.|BS + LS + SpecAug++ + max_loss
 
 ## HL vs all_data
@@ -73,7 +73,7 @@
 ||クラス数|data総数|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|
 |ex40|111|7564(teacher HL model ex36)|10|0.5364|0.6306|0.54|baseline + LS
-|[ex40_optimTH](https://www.kaggle.com/shinmurashinmura/bird2-ex40-adaptiveth-infer-rex150#prediction)|-|-|-|-|0.6428|0.56|baseline + LS
+|[ex40_dynamicTH](https://www.kaggle.com/shinmurashinmura/bird2-ex40-adaptiveth-infer-rex150#prediction)|-|-|-|-|0.6428|0.56|baseline + LS
 
 ## distilation
 ## HL vs all_data
@@ -88,8 +88,9 @@
 |ex40|-|-|ex36|10|0.5364|0.6306|0.54|baseline + LS
 |ex54|-|-|ex52|10|0.5261|0.6374|0.56|BS + LS + SpecAug++(rain, fire)
 |ex58|-|-|ex54|10|0.5485|0.6286|0.|-
-|ex60|-|-|ex54|10|0.5420|0.6378|0.|BS + LS + SpecAug++(rain, fire, dog)
-|ex61|-|-|ex60|10|0.|0.|0.|0.8alpha
+|ex60|-|-|ex54|10|0.5420|0.6378|0.57|BS + LS + SpecAug++(rain, fire, dog)
+|ex60_dynamicTH|-|-|-|-|-|0.6502|0.57|BS + LS + SpecAug++(rain, fire, dog)
+|ex61|-|-|ex60|10|0.5128|0.6106|0.|0.8alpha
 
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
