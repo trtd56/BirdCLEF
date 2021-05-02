@@ -94,7 +94,9 @@
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex62|-|-|ex52|30|0.7057|0.6421|0.|BS + LS + SpecAug++(rain, fire, dog)
-|ex63|-|-|ex62|30|0.7372|0.6489|0.|BS + LS + SpecAug++(rain, fire, dog)
+|ex63|-|-|ex62|30|0.7372|0.6489|0.|-
+|ex64|-|-|ex63|30|0.|0.|0.|-
+|ex65|-|-|ex63|30|0.|0.|0.|0.8alpha
 
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
