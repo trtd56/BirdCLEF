@@ -76,7 +76,6 @@
 |[ex40_dynamicTH](https://www.kaggle.com/shinmurashinmura/bird2-ex40-adaptiveth-infer-rex150#prediction)|-|-|-|-|0.6428|0.56|baseline + LS
 
 ## distilation
-## HL vs all_data
 + threshold=0.5
 + fold0
 + RexNet-150
@@ -94,7 +93,11 @@
 
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
+|ex62|-|-|ex52|30|0.|0.|0.|BS + LS + SpecAug++(rain, fire, dog)
+
+||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
+|---|---|---|---|---|---|---|---|---|
 |ex56|-|-|ex52|30|0.5960|0.6335|0.|BS + LS + SpecAug++(rain, fire)
 |ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
 |ex59|-|-|-|10|0.3616|0.6120|0.|BS + LS + SpecAug++(rain, fire), framewise(beta1)
-|ex57|-|-|-|30|0.5655|0.6394|0.|-
+|ex57|-|-|-|30|0.5655|0.6394|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
