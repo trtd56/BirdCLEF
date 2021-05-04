@@ -96,13 +96,14 @@
 |ex62|-|-|ex52|30|0.7057|0.6421|0.|BS + LS + SpecAug++(rain, fire, dog)
 |ex63|-|-|ex62|30|0.7372|0.6489|0.|-
 |[ex64](https://www.kaggle.com/shinmurashinmura/bird2-ex64-train-rex150)|-|-|ex63|30|0.7706|0.6542|0.57|-
-|ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
+|[ex64_5CV](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-infer-rex150/data#prediction)|-|-|-|-|-|0.6696|0.58|-
+ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 |ex66|-|-|ex64|30|0.7551|0.6685|0.57|-
 |ex67|-|-|ex66|30|0.7280|0.6498|0.|-
 
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
-|ex56|-|-|ex52|30|0.5960|0.6335|0.|BS + LS + SpecAug++(rain, fire)
+|ex56|-|-|ex52|30|0.5960|0.6335|0.56|BS + LS + SpecAug++(rain, fire)
 |ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
 |ex59|-|-|-|10|0.3616|0.6120|0.|BS + LS + SpecAug++(rain, fire), framewise(beta1)
 |ex57|-|-|-|30|0.5655|0.6394|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
