@@ -106,4 +106,4 @@ ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 |ex56|-|-|ex52|30|0.5960|0.6335|0.56|BS + LS + SpecAug++(rain, fire)
 |ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
 |ex59|-|-|-|10|0.3616|0.6120|0.|BS + LS + SpecAug++(rain, fire), framewise(beta1)
-|ex57|-|-|-|30|0.5655|0.6394|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
+|ex57|-|-|-|30|0.5655|0.6394|0.56|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
