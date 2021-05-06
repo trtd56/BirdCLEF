@@ -107,3 +107,8 @@ ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 |ex55|-|-|-|10|0.4975|0.6347|0.|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
 |ex59|-|-|-|10|0.3616|0.6120|0.|BS + LS + SpecAug++(rain, fire), framewise(beta1)
 |ex57|-|-|-|30|0.5655|0.6394|0.56|BS + LS + SpecAug++(rain, fire), framewise(beta0.1)
+
+||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
+|---|---|---|---|---|---|---|---|---|
+|ex68|-|-|ex63|30|0.|0.|0.|BS + LS + 0.5SpecAug++(rain, fire, dog)
+|ex69|-|-|ex63|30|0.|0.|0.|BS + LS + mixup + (rain, fire, dog)
