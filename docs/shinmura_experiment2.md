@@ -111,4 +111,5 @@ ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex68|-|-|ex63|30|0.7446|0.6405|0.|BS + LS + 0.5SpecAug++(rain, fire, dog)
-|ex69|-|-|ex63|30|0.|0.|0.|BS + LS + mixup + (rain, fire, dog)
+|ex69|-|-|ex63|30|0.7640|0.6552|0.|BS + LS + Modified mixup + (rain, fire, dog)
+|ex70|-|-|ex63|30|0.7557|0.6260|0.|BS + LS + M_mixup + SpecAug++ (rain, fire, dog)
