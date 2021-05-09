@@ -97,7 +97,8 @@
 |ex63|-|-|ex62|30|0.7372|0.6489|0.|-
 |[ex64](https://www.kaggle.com/shinmurashinmura/bird2-ex64-train-rex150)|-|-|ex63|30|0.7706|0.6542|0.57|-
 |[ex64_5CV](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-infer-rex150/data#prediction)|-|-|-|-|-|0.6696|0.58|-
-ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
+|[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-post-infer-rex150)|-|-|-|-|-|0.6796|0.59|0.5next+0.5previous thershold=0.8
+|ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 |ex66|-|-|ex64|30|0.7551|0.6685|0.57|-
 |ex67|-|-|ex66|30|0.7280|0.6498|0.|-
 
@@ -111,5 +112,5 @@ ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 ||クラス数|data総数|teacher_model|epoch|local_F1|TS(F1)|LB|memo|
 |---|---|---|---|---|---|---|---|---|
 |ex68|-|-|ex63|30|0.7446|0.6405|0.|BS + LS + 0.5SpecAug++(rain, fire, dog)
-|ex69|-|-|ex63|30|0.7640|0.6552|0.|BS + LS + Modified mixup + (rain, fire, dog)
+|[ex69](https://www.kaggle.com/shinmurashinmura/bird2-ex69-train-rex150)|-|-|ex63|30|0.7640|0.6552|0.|BS + LS + Modified mixup + (rain, fire, dog)
 |ex70|-|-|ex63|30|0.7557|0.6260|0.|BS + LS + M_mixup + SpecAug++ (rain, fire, dog)
