@@ -11,6 +11,8 @@
 |ex101|4300HL + other_data|ex100|30|0.7914|0.5958|0.|
 |ex102|4300HL + other_data|ex101|30|0.7898|0.5975|0.|
 
+https://www.kaggle.com/shinmurashinmura/bird2-ex102-4cv-2post-pickupsite-dynamicth-infer/data#prediction
+
 ## site毎にdistilation
 + fold0
 + RexNet-150
