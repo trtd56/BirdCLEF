@@ -100,7 +100,7 @@
 |[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-post-infer-rex150)|-|-|-|-|-|0.6796|0.59|0.5next+0.5previous thershold=0.8
 |[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-post-pickupsite-infer-rex150)|-|-|-|-|-|0.6859|0.|0.5next+0.5previous sitePickUp thershold=0.8
 |[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-post-pickupsite-th0-6#prediction)|-|-|-|-|-|0.6949|0.|0.5next+0.5previous sitePickUp thershold=0.6
-|[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-4post-pickupsite#prediction)|-|-|-|-|-|0.6979|0.59|0.25n_nest&p_previous + 0.5next&previous sitePickUp thershold=0.8
+|[ex64_5CV_post](https://www.kaggle.com/shinmurashinmura/bird2-ex64-5cv-4post-pickupsite#prediction)|-|-|-|-|-|0.6979|0.|0.25n_nest&p_previous + 0.5next&previous sitePickUp thershold=0.8
 |ex65|-|-|ex63|30|0.7320|0.6524|0.|0.8alpha
 |ex66|-|-|ex64|30|0.7551|0.6685|0.57|-
 |ex67|-|-|ex66|30|0.7280|0.6498|0.|-
