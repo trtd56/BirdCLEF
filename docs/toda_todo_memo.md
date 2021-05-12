@@ -5,6 +5,8 @@
 - 少数ラベルを5s以降のpseudoで学習
 - label weight
 - siteごとのやつの学習結果を確認
-- 学習したモデルを使ってmask loss
+- ~~学習したモデルを使ってmask loss~~
+  - うまくいかない
+  - secondary labelや曖昧なラベルの学習に使いたい
 - mixup
 - nocallの追加
