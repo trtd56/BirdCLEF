@@ -20,7 +20,7 @@ https://www.kaggle.com/shinmurashinmura/bird2-ex102-4cv-2post-pickupsite-dynamic
 + batchsize=32(T1以降)、64（T0）
 + BS + LS + modifiedMixup(rain, fire, dog)
 + epoch30
-+ **post-processing適用**
++ **post-processing:2post + pick_up_site**
 
 ### とりあえず、SSWとCOR 
 
@@ -29,4 +29,4 @@ https://www.kaggle.com/shinmurashinmura/bird2-ex102-4cv-2post-pickupsite-dynamic
 |T0|ex110|-|0.2742|0.6456|0.5875|0.
 |T1|ex111|ex110|0.7139|0.7776|0.6406|0.
 |T2|ex112|ex111|0.7606|0.7980|0.6253|0.
-|T3|ex113|ex112|0.7486|0.|0.|0.
+|T3|ex113|ex112|0.7486|0.8037|0.|0.
