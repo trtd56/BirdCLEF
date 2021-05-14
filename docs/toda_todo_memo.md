@@ -8,3 +8,4 @@
   - secondary labelや曖昧なラベルの学習に使いたい
 - mixup
 - siteでnocallの追加
+- epoch増やす(15とか？)
