@@ -1,11 +1,8 @@
 # やりたいこと
 - One Cycle Scheduler
 - thresoldをoptimizeingしながらの学習
-- thresholdでnocall作成
 - 少数ラベルを5s以降のpseudoで学習
 - ~~学習したモデルを使ってmask loss~~
   - うまくいかない
   - secondary labelや曖昧なラベルの学習に使いたい
-- mixup
-- siteでnocallの追加
 - epoch増やす(15とか？)
