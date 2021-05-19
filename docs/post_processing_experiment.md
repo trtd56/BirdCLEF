@@ -1,4 +1,4 @@
-# 後処理たち
+# 後処理のメンバーたち
 
 + ①predictionの平滑化：now = now + 0.5(next + previous + next_next)
 + ②predictionの平滑化：now = now + 0.5(next + previous + next_next + previous_previous + next_next_next + previous_previous_previous)
