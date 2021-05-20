@@ -32,8 +32,7 @@
 
 ## 後処理
 
-新村さんの後処理を試してみました
-https://github.com/trtd56/BirdCLEF/blob/main/docs/post_processing_experiment.md
+新村さんの後処理(しきい値平滑化): https://github.com/trtd56/BirdCLEF/blob/main/docs/post_processing_experiment.md
 
 |しきい値|なにもしない|①|②|
 |--|--|--|--|
