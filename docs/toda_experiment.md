@@ -28,3 +28,14 @@
 |--|--|--|--|--|--|--|--|
 |exp0024|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0024.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model?scriptVersionId=61287530)|0.9636|0.6376|0.54|baseline|しきい値0.9だった|
 |exp0024|[code](https://github.com/trtd56/BirdCLEF/blob/main/works/notebook/BirdCLEF_Train_exp0024.ipynb)|[code](https://www.kaggle.com/takamichitoda/birdclef-infer-split-model-2-type?scriptVersionId=61288115)|0.9636|0.6407|0.58|500-400と組み合わせ||
+
+
+## 後処理
+
+新村さんの後処理を試してみました
+https://github.com/trtd56/BirdCLEF/blob/main/docs/post_processing_experiment.md
+
+|しきい値|なにもしない|①|②|
+|--|--|--|--|
+|0.5|0.6490|0.6586|0.6562|
+|0.3|0.6586|0.6386|0.6260|
