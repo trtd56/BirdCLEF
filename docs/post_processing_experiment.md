@@ -23,5 +23,5 @@
 |[code](https://www.kaggle.com/teyosan1229/birdclef-inference-3ch/data)|baseline|0.6978|0.65|
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-inference-3ch-ppno1#ppNo1)|+②|0.7042||threshold=0.6(default)。0.5と0.7は悪化した
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-inference-3ch-ppno1-2)|+②③|0.7141|0.67|threshold=0.6。0.3~0.7で探索した
-|[code](https://www.kaggle.com/shinmurashinmura/birdclef-inference-3ch-ppno2-3-4-easy-sub)|+②③④|0.7195||threshold=expon.ppf(0.999999) + 0.5　ゆるめ
+|[code](https://www.kaggle.com/shinmurashinmura/birdclef-inference-3ch-ppno2-3-4-easy-sub)|+②③④|0.7195|0.68|threshold=expon.ppf(0.999999) + 0.5　ゆるめ
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-inference-3ch-ppno2-3-4-hard-sub)|+②③④|0.7214|0.68|threshold=expon.ppf(0.999999) + 0.6　きつめ
