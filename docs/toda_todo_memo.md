@@ -7,4 +7,6 @@
   - うまくいかない
   - secondary labelや曖昧なラベルの学習に使いたい
 - モデルを変える
+ - ViT
+ - Conformer: https://github.com/sooftware/conformer 
 - 出力チェックで波形をみてみる
