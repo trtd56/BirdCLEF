@@ -44,4 +44,4 @@
 ### 最終アンサンブル
 ||post-processing|モデル数|TS(F1)|LB|memo
 |---|---|---|---|---|---|
-|[code]()|+②③④⑥⑦|6|0.7411|0.69|0.5　たぶんゆるめ
+|[code](https://www.kaggle.com/shinmurashinmura/birdclef-ensemble-toda-teyo-shinumra)|+②③④⑥⑦|6|0.7411|0.69|0.5　たぶんゆるめ
