@@ -2,6 +2,9 @@ Our Solution
 
 # X place solution
 
+[It](https://www.kaggle.com/c/birdclef-2021/discussion/233454) said bagging works good in this competition.
+We thought so too from us experiment, so our strategy is training various model and they ensemble.
+
 ## teyo  part
 
 ## shinmura part
