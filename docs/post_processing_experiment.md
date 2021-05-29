@@ -46,7 +46,7 @@
 |---|---|---|---|---|---|
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-ensemble-toda-teyo-shinumra)|+②③④⑥⑦|6|0.7411|0.69|0.5　たぶんゆるめ
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-ensemble-toda-teyo-shinumra-adjustth)|+②③④⑥⑦|RexNet200のみ|0.7708|0.70|reevir1など閾値緩和、0.5　たぶんゆるめ
-|[code](https://www.kaggle.com/shinmurashinmura/birdclef-ensemble-toda-teyo-shinumra-adjustth-sne)|+②③④⑥⑦|RexNet200のみ|0.7704|0.70|reevir1など閾値緩和、0.5　たぶんゆるめ
+|[code](https://www.kaggle.com/shinmurashinmura/birdclef-ensemble-toda-teyo-shinumra-adjustth-sne)|+②③④⑥⑦|RexNet200のみ|0.7704|0.70|reevir1、gockinなど閾値緩和、0.5　たぶんゆるめ
 |[code](https://www.kaggle.com/shinmurashinmura/birdclef-toda-teyo-shinumra-optimthver2-sne)|+②③④⑥⑦|RexNet200のみ|0.7609|0.61|reevir1など閾値緩和、optim threshの見直し
 
 
