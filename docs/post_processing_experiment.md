@@ -4,11 +4,12 @@
 + ②predictionの平滑化：now = now + 0.5(next + previous + next_next + previous_previous + next_next_next + previous_previous_previous)
 + ③siteで鳥を絞る
 + ④bird毎の閾値最適化（[nocallの指数分布による決定](https://github.com/trtd56/BirdCLEF/issues/44)）
-+ ⑤クリップごとの閾値調整
++ ~~⑤クリップごとの閾値調整~~
 + ⑥クリップ内のbird頻度による閾値緩和
 + ⑦prediction平滑化の後処理
 
-⑤は最終段階で適用したいと思いますので、まだ保留です。
+~~⑤は最終段階で適用したいと思いますので、まだ保留です。~~  
+RexNet200が強力なため、⑤は適用しても効果が薄いです。
 
 ### ⑥クリップ内のbird頻度による閾値緩和
 クリップ（10分）内に頻出する鳥は、クリップ全体でbirdcallの傾向にある。  
