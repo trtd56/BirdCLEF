@@ -47,56 +47,7 @@ nocall data is here: https://www.kaggle.com/takamichitoda/birdclef-nocall-each-s
 I mainly developed post-processing (And [hand labeing](https://www.kaggle.com/c/birdclef-2021/discussion/239911)).  
 
 Our post-processing improved LB significantly (**LB 0.65 -> 0.70** jump up).  
-Our post-processing is 7 ideas.
+Our post-processing is 7 ideas. But it's too long to write here.
 
-### 1.Threshold Optimization
-In sound event detection, threshold optimization seem to be big impact. So I want to do threshold optimization, but there is domain shift in this competition. The normal way (Using train_short_audio) was impossible.
-
-So I focused on the "nocall" of train_soundscape.
-
-
-### 2.prediction 
-
-### 3.Delete head and tails
-
-### 4.Focus site 
-Similar to toda part, I made a list of birds that frequently appear in each site.  
- (SSWlist, CORlist, COLlist, SNElist) Each list contains about 50 species of birds.
- 
-In inference time, I delete prediction for bird species not included in the list for each site.
-```
-prediction[targetlist==False] = 0
-```
-
-This technique reduce false positive.
-
-### 5.Bonus time at each species
-In train_soundscape, the same bird is always singing throughout a clip (e.g. runwar, sonspa).
-
-So, birds that appear more in prediction are more likely to be singing more (a lot of false negative). Therefore, I lowered the threshold for birds that appear a lot in prediction. It is bonus time!
-
-```
-def bonus_time(prediction, thresh): #prediction(120,397)=0 or 1, thresh(397)
-    prediction_count = np.sum(prediction, axis=0)
-    for i in range(len(prediction_count)):#397
-        if prediction_sount[i] > 20: # over 20 times appear
-            thresh[i] = thresh[i] - 0.1
-    return thresh
-```
-
-This technique reduce false negative.
-
-### 6.Threshold down at special species
-In train_soundscape, certain birds appeared more frequently(e.g. runwar, reevir1). 
-
-It is highly likely that these bird will appear frequently in the test audio. So I lowered the threshold for these birds (=special species).
-
-Special species are
-+ runwar
-+ reevir1
-+ sonspa
-+ grycat
-+ eawpew
-
-### 7.Threshold down at SNE special species
-Above special species is SSW and COR species. In test audio, there are also "COL" and "SNE".
+If you want to know our post-processing, please comment me.
+Then I will build another thread.
