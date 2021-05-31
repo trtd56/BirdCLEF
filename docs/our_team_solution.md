@@ -9,6 +9,8 @@ We thought so too from us experiment, so our strategy is training various model 
 
 ## toda part
 
+**※ My model has not used in our team final submission, so this part is "I try, but it was not working".**
+
 I have used the ResNet18 based SED model.
 My ingenuity points are there three:
 
