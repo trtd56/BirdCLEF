@@ -93,7 +93,7 @@ nocall data is here: https://www.kaggle.com/takamichitoda/birdclef-nocall-each-s
 ## shinmura part
 I mainly developed post-processing (And [hand labeing](https://www.kaggle.com/c/birdclef-2021/discussion/239911)).  
 
-Our post-processing improved LB significantly (**LB 0.65 -> 0.70** jump up).  
+Our post-processing improved LB very well (**LB 0.65 -> 0.70** jump up).  
 Our post-processing is 7 ideas. But it's too long to write here.
 
 If you want to know our post-processing, please comment me.
