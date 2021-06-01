@@ -7,6 +7,51 @@ We thought so too from us experiment, so our strategy is training various model 
 
 ## teyo  part
 
+my aproach is cnn classifier model
+
+### Data Preparation
+
+I cut out 5 seconds of audio from train short audio.
+The training data was converted to logmel using torchlibrosa, and then increased to 3 channels.
+I used delta to increase channels, referring to past competitions. There was not much difference from simple repeat.
+
+Reference [Cornell Birdcall Identification 4-th place solutinon](https://www.kaggle.com/vladimirsydor/4-th-place-solution-inference-and-training-tips)
+
+### model
+
+rexnet_200
+
+The rexnet 200 was unusually strong:)
+I keep track of the f-1 for the train sound scape data and use the best f-1 weight.
+
+for ensemble [densenet161, efficientnetv2_s, resnext50_32x4]
+
+not worked efficientnetb0-4,resnest50d
+
+### data augmentation
+
++ NoiseInjection
++ PinkNoise
++ RandomVolume
++ SpecAugmentation (do in model)
++ [Modified Mixup](https://www.kaggle.com/c/birdsong-recognition/discussion/183199)
+  + increase 0.02 in public LB
+
+### other settings
+
++ split
+  + StratifiedKFold
+    + mainly 5 fold
++ Scheduler
+  + CosineAnnealingWarmRestarts
+  + 30 epochs
+  + lr=1e-4
+  + min_lr=1e-6
++ optimizer
+  + Adam
++ criterion
+  + BCEWithLogitsLoss
+
 ## toda part
 
 **※ My model has not used in our team final submission, so this part is "I try, but it was not working".**
