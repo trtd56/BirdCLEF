@@ -52,6 +52,15 @@ not worked efficientnetb0-4,resnest50d
 + criterion
   + BCEWithLogitsLoss
 
+## shinmura part
+I mainly developed post-processing (And [hand labeing](https://www.kaggle.com/c/birdclef-2021/discussion/239911)).  
+
+Our post-processing improved LB very well (**LB 0.65 -> 0.70** jump up).  
+Our post-processing is 7 ideas. But it's too long to write here.
+
+If you want to know our post-processing, please comment me.
+Then I will build another thread.
+
 ## toda part
 
 **※ My model has not used in our team final submission, so this part is "I try, but it was not working".**
@@ -88,13 +97,3 @@ The method making nocall datasets is reversed the method making datasets each si
 I extracted audio that is more than 1000km away from each site and is not in the target period.
 
 nocall data is here: https://www.kaggle.com/takamichitoda/birdclef-nocall-each-site
-
-
-## shinmura part
-I mainly developed post-processing (And [hand labeing](https://www.kaggle.com/c/birdclef-2021/discussion/239911)).  
-
-Our post-processing improved LB very well (**LB 0.65 -> 0.70** jump up).  
-Our post-processing is 7 ideas. But it's too long to write here.
-
-If you want to know our post-processing, please comment me.
-Then I will build another thread.
