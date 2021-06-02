@@ -1,9 +1,12 @@
 Our Solution
 
-# X place solution
+# [Interim] 105 place solution
 
 [It](https://www.kaggle.com/c/birdclef-2021/discussion/233454) said bagging works good in this competition.
 We thought so too from us experiment, so our strategy is training various model and they ensemble.
+
+Our final submission is voting by 5 models that three rexnet_200, densenet161, and resnest50d.
+
 
 ## teyo  part
 
