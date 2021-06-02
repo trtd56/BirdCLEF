@@ -1,6 +1,6 @@
 Our Solution
 
-# [Interim] 105 place solution
+# [Interim] 68 place solution
 
 [It](https://www.kaggle.com/c/birdclef-2021/discussion/233454) said bagging works good in this competition.
 We thought so too from us experiment, so our strategy is training various model and they ensemble.
